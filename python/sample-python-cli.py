@@ -11,7 +11,7 @@ import json
 import sys
 
 LIMIT=10 # default limit
-OFFSET=0 # default limit
+OFFSET=0 # default offset
 
 
 #Function to print the Usage, in case invalid arguments
@@ -31,6 +31,7 @@ def getTheData(key,limit,offset):
    response = h.getresponse()
    return response.read()
 
+#Validating command line arguments
 if len(sys.argv) < 2:
   #No key provided
   usage()

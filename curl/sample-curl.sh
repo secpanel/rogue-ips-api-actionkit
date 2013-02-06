@@ -10,6 +10,7 @@ usage(){
     exit
 }
 
+#Validating Command line arguments
 if [ $# -lt 1 ]
  then
     usage 
