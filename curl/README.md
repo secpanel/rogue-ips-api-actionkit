@@ -1,5 +1,5 @@
 A sample output looks like:
-
+<pre>
 {
               "limit"  :  10,
              "offset"  :  0,
@@ -16,4 +16,4 @@ A sample output looks like:
               "total"  :  10,
              "status"  :  "good",
         "status_code"  :  200
-}
+}</pre>
