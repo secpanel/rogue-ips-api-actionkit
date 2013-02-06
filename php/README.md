@@ -1,5 +1,5 @@
 A Sample output looks like:
-
+<pre>
 129.121.182.80 : Array
 (
     [lat] => 35.0757
@@ -12,4 +12,4 @@ A Sample output looks like:
     [lat] => 38
     [lng] => -97
     [add] => United States
-)
+)</pre>
