@@ -14,14 +14,14 @@ if [ $# -lt 1 ]
  then
     usage 
  elif [ $# -eq 1 ]; then
-  #Seems key is supplied
+  #Seems api-key is supplied
   api_key="$1"
  elif [ $# -eq 2 ]; then
-  #Seems key as well as limit is supplied
+  #Seems api-key as well as limit are supplied
   api_key="$1"
   limit="$2"
  elif [ $# -eq 3 ]; then
-  #Seems key,limit and offset value is also supplied
+  #Seems api-key,limit and offset value are also supplied
   api_key="$1"
   limit="$2"
   offset="$3"
